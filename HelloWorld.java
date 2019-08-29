@@ -1,7 +1,13 @@
 class HelloWorld
 {
+	void show()
+	{
+			System.out.println("Welcome to Java World");
+	}
 	public static void main(String args[])
 	{
-		System.out.println("Welcome to Java World");
+
+		HelloWorld ob=new HelloWorld();
+		ob.show();
 	}
 }
