@@ -8,6 +8,6 @@ class HelloWorld
 	{
 
 		HelloWorld ob=new HelloWorld();
-		ob.show();
+		ob.show();;
 	}
 }
